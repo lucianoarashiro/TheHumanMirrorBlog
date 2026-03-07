@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>The Human Mirror</title>
+
+<link rel="icon" href="img/favicon.png" type="image/png">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<div class="paper-overlay"></div>
+
+<header class="topbar">
+
+<div class="topbar-inner">
+
+<a class="brand" href="#" id="homeLink">
+
+<img src="icons/bluebird-logo.svg" class="brand-bird" alt="The Human Mirror logo">
+
+<div class="brand-text">
+<div class="brand-title">The Human Mirror Blog</div>
+<div class="brand-sub">Stories from the past that reflect the modern world</div>
+</div>
+
+</a>
+
+<nav class="crumbs">
+
+<span class="crumb">Home</span>
+<span class="crumb-sep">/</span>
+<span class="crumb" id="crumbPost">—</span>
+<span class="crumb-sep">/</span>
+<span class="crumb" id="crumbChapter">—</span>
+
+</nav>
+
+<div class="top-actions">
+
+<button class="btn" id="btnToggleToc">Chapters</button>
+
+<button class="btn" id="btnTop">Top</button>
+
+<a class="btn btn-primary" id="btnPdf" download hidden>
+Download PDF
+</a>
+
+</div>
+
+</div>
+
+</header>
+
+<main class="container">
+
+<!-- ====================== -->
+<!-- HOME / LIST VIEW -->
+<!-- ====================== -->
+
+<section id="listView" class="view view-active">
+
+<!-- STREAMING PLATFORMS -->
+
+<section class="platforms">
+  <div class="platforms-head">
+    <p class="platforms-eyebrow">Available on</p>
+    <h2 class="platforms-title">Listen or watch on your preferred platform</h2>
+    <p class="platforms-sub">
+      Follow The Human Mirror across video and audio platforms.
+    </p>
+  </div>
+
+  <div class="platform-grid">
+    <a href="https://www.youtube.com/@humanmirrorstories" target="_blank" rel="noopener" class="platform-card platform-youtube">
+      <span class="platform-icon-wrap">
+        <span class="platform-icon-circle">
+          <span class="platform-icon-text">
+            <img src="icons/youtube-sketch.svg" alt="YouTube">
+          </span>
+        </span>
+      </span>
+      <span class="platform-copy">
+        <span class="platform-name">YouTube</span>
+        <span class="platform-note">Watch the full video essays</span>
+      </span>
+    </a>
+
+    <a href="https://open.spotify.com/show/6vJuBpX71EnBa3Gl0ksJ9I?si=6bebe71de2644439" target="_blank" rel="noopener" class="platform-card platform-spotify">
+      <span class="platform-icon-wrap">
+        <span class="platform-icon-circle">
+          <span class="platform-icon-text">
+            <img src="icons/spotify-sketch.svg" alt="Spotify">
+          </span>
+        </span>
+      </span>
+      <span class="platform-copy">
+        <span class="platform-name">Spotify</span>
+        <span class="platform-note">Listen in podcast format</span>
+      </span>
+    </a>
+
+    <a href="https://podcasts.apple.com/br/podcast/the-human-mirror/id1883115712" target="_blank" rel="noopener" class="platform-card platform-apple">
+      <span class="platform-icon-wrap">
+        <span class="platform-icon-circle">
+          <span class="platform-icon-text">
+            <img src="icons/applepodcast-sketch.svg" alt="Apple Podcasts">
+          </span>
+        </span>
+      </span>
+      <span class="platform-copy">
+        <span class="platform-name">Apple Podcasts</span>
+        <span class="platform-note">Follow on Apple’s podcast app</span>
+      </span>
+    </a>
+
+    <a href="https://open.spotify.com/show/6vJuBpX71EnBa3Gl0ksJ9I?si=6bebe71de2644439" target="_blank" rel="noopener" class="platform-card platform-amazon">
+      <span class="platform-icon-wrap">
+        <span class="platform-icon-circle">
+          <span class="platform-icon-text">
+            <img src="icons/amazonmusic-sketch.svg" alt="Amazon Music">
+          </span>
+        </span>
+      </span>
+      <span class="platform-copy">
+        <span class="platform-name">Amazon Music</span>
+        <span class="platform-note">Listen on Amazon’s platform</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<div id="postsGrid" class="grid"></div>
+
+</section>
+
+<!-- ====================== -->
+<!-- POST VIEW -->
+<!-- ====================== -->
+
+<section id="postView" class="view">
+
+<div class="layout">
+
+<aside class="toc" id="toc">
+
+<div class="toc-head">
+
+<div>
+<div class="toc-title">Chapters</div>
+<div class="toc-meta" id="tocMeta"></div>
+</div>
+
+<button class="btn btn-ghost" id="btnCloseToc">✕</button>
+
+</div>
+
+<div class="toc-body">
+<div class="toc-list" id="tocList"></div>
+</div>
+
+</aside>
+
+<article class="post">
+
+<div class="post-head">
+
+<div class="post-kicker" id="postKicker"></div>
+
+<h2 class="post-title" id="postTitle"></h2>
+
+<p class="post-desc" id="postDesc"></p>
+
+</div>
+
+<div class="chapter-stack" id="pages"></div>
+
+<footer class="post-foot">
+
+<button class="btn" id="btnBackHome">
+
+← Back to Home
+
+</button>
+
+<a class="btn btn-primary" id="btnPdfBottom" download hidden>
+
+Download PDF
+
+</a>
+
+</footer>
+
+</article>
+
+</div>
+
+</section>
+
+</main>
+
+<script src="posts.js"></script>
+<script src="app.js"></script>
+
+</body>
+
+</html>
