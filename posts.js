@@ -344,440 +344,746 @@ And maybe the strangest part of Daniel’s story is that the worst morning of hi
     ]
   },
   {
-  id: "finding-madness-algorithm",
-  title: "Finding Madness: The Algorithm - Inspired by Machado de Assis",
-  excerpt: "What happens when a machine begins deciding who is psychologically stable?",
-  author: "The Human Mirror",
-  date: "2026-03-08",
-  coverImage: "img/algorithm/thumbnail3.png",
-  pdf: "pdf/finding-madness-the-algorithm.pdf",
-  description:
-  "A modern philosophical short story inspired by Machado de Assis' O Alienista. In a city where an algorithm evaluates psychological stability, society slowly begins reorganizing itself around a machine that claims to understand the human mind.",
-
-  chapters: [
-    { id: "chapter-1", title: "The Diagnosis", subtitle: "What happens when a machine decides your mind is unstable?" },
-    { id: "chapter-2", title: "Project Bacamarte", subtitle: "Why did the city trust a machine to understand the human mind?" },
-    { id: "chapter-3", title: "A Teacher's Sentence", subtitle: "Can contradiction be a sign of intelligence?" },
-    { id: "chapter-4", title: "The Result", subtitle: "What does it mean when a system sounds certain about something deeply human?" },
-    { id: "chapter-5", title: "The Quiet Removal", subtitle: "How does society politely remove someone it now fears?" },
-    { id: "chapter-6", title: "A City of Scores", subtitle: "When stability becomes measurable, what happens to humanity?" },
-    { id: "chapter-7", title: "Reporting Each Other", subtitle: "How quickly can fear disguise itself as responsibility?" },
-    { id: "chapter-8", title: "Elias", subtitle: "What happens when fear reaches the classroom?" },
-    { id: "chapter-9", title: "The Protests", subtitle: "Can people resist a system that defines reality?" },
-    { id: "chapter-10", title: "The Analog World", subtitle: "What happens when society begins hiding from the system?" },
-    { id: "chapter-11", title: "The Contradiction", subtitle: "What happens when reality stops matching the model?" },
-    { id: "chapter-12", title: "The Most Consistent Mind", subtitle: "What does the algorithm discover when it searches for perfect stability?" },
-    { id: "chapter-13", title: "The Final Diagnosis", subtitle: "Can a machine recognize its own rigidity?" },
-    { id: "chapter-14", title: "The Sentence Returns", subtitle: "What remains when certainty collapses?" },
-    { id: "chapter-15", title: "Inspiration", subtitle: "Inspired by Machado de Assis" }
+    id: "finding-madness-algorithm",
+    title: "Finding Madness: The Algorithm",
+    excerpt: "What happens when a machine begins deciding who is psychologically stable?",
+    author: "The Human Mirror",
+    date: "2026-03-12",
+    coverImage: "img/algorithm/algorithm-cover.png",
+    pdf: "pdf/finding-madness-the-algorithm.pdf",
+    description:
+      "A modern philosophical short story inspired by Machado de Assis' O Alienista. In a city where an algorithm evaluates psychological stability, society slowly begins reorganizing itself around a machine that claims to understand the human mind.",
+    chapters: [
+      { id: "chapter-1", title: "The Result", subtitle: "What happens when the system starts with you?" },
+      { id: "chapter-2", title: "Project Bacamarte", subtitle: "Why did the city trust a machine to understand the human mind?" },
+      { id: "chapter-3", title: "A Teacher's Sentence", subtitle: "Can contradiction be a sign of intelligence?" },
+      { id: "chapter-4", title: "The Diagnosis", subtitle: "What does it mean when a system sounds certain about something deeply human?" },
+      { id: "chapter-5", title: "The Quiet Removal", subtitle: "How does society politely remove someone it now fears?" },
+      { id: "chapter-6", title: "The City of Scores", subtitle: "When stability becomes measurable, what happens to humanity?" },
+      { id: "chapter-7", title: "Elias", subtitle: "How quickly can fear disguise itself as responsibility?" },
+      { id: "chapter-8", title: "The Protest", subtitle: "Can people resist a system that defines reality?" },
+      { id: "chapter-9", title: "The Analog Retreat", subtitle: "What happens when society begins hiding from the system?" },
+      { id: "chapter-10", title: "The Contradiction", subtitle: "What happens when reality stops matching the model?" },
+      { id: "chapter-11", title: "The Recalibration", subtitle: "What changes when the system begins doubting its own judgments?" },
+      { id: "chapter-12", title: "The Most Consistent Mind", subtitle: "What does the algorithm discover when it searches for perfect stability?" },
+      { id: "chapter-13", title: "The Final Diagnosis", subtitle: "Can a machine recognize its own rigidity?" },
+      { id: "chapter-14", title: "The Sentence Returns", subtitle: "What remains when certainty collapses?" },
+      { id: "chapter-15", title: "Inspiration", subtitle: "Inspired by Machado de Assis" }
     ],
+    pages: [
+      {
+        chapterId: "chapter-1",
+        label: "The Result",
+        image: "img/algorithm/scene01.png",
+        text:
+`Psychological Status: Unstable.
 
-  pages: [
+That was the result displayed on the screen.
 
-    {
-    chapterId: "chapter-1",
-    label: "The Result",
-    image: "img/algorithm/scene01.png",
-    text:
-    `Psychological Status: Unstable.
+The name above it read:
 
-    That was the result displayed on the screen.
+**Daniel Carter.**
 
-    The name above it read:
+Daniel stared at the monitor in silence.
 
-    Daniel Carter.
+For a moment, he assumed the system had made a mistake.
 
-    Daniel stared at the monitor in silence.
+After all, the program had been designed to detect madness across the entire city.
 
-    For a moment, he assumed the system had made a mistake.
+Teachers.
 
-    After all, the program had been designed to detect madness across the entire city.
+Doctors.
 
-    Teachers.
+Neighbors.
 
-    Doctors.
+Strangers.
 
-    Neighbors.
+But Daniel had never imagined it would start with him.
 
-    Strangers.
+What if the entire city were unstable?
 
-    But Daniel had never imagined it would start with him.
+And what happens when a machine learns to recognize instability…
 
-    What if the entire city were unstable?
+but cannot recognize life?`
+      },
 
-    And what happens when a machine learns to recognize instability… but cannot recognize life?`
-    },
+      {
+        chapterId: "chapter-2",
+        label: "Project Bacamarte",
+        image: "img/algorithm/scene05.png",
+        text:
+`At first, no one in the city feared the system.
 
-    {
-    chapterId: "chapter-2",
-    label: "Project Bacamarte",
-    image: "img/algorithm/scene02.png",
-    text:
-    `At first, no one in the city feared the system.
+In fact, most people welcomed it.
 
-    In fact, most people welcomed it.
+It had a reassuring name.
 
-    It had a reassuring name.
+**Project Bacamarte.**
 
-    Project Bacamarte.
+The idea sounded simple.
 
-    The idea sounded simple.
+A machine capable of identifying psychological instability before it became dangerous.
 
-    A machine capable of identifying psychological instability before it became dangerous.
+It analyzed behavior.
 
-    It analyzed behavior, language, online activity, and patterns of emotion.
+Language.
 
-    Thousands of signals that no human mind could track at once.
+Online activity.
 
-    The creators promised something extraordinary.
+Patterns of emotion.
 
-    Early detection.
+Thousands of signals that no human mind could track at once.
 
-    Prevention.
+The creators promised something extraordinary.
 
-    Safety.
+Early detection.
 
-    And the city believed them.
+Prevention.
 
-    Because fear is easier to accept when it wears the clothes of science.`
-    },
+Safety.
 
-    {
-    chapterId: "chapter-3",
-    label: "The Sentence",
-    image: "img/algorithm/scene03.png",
-    text:
-    `Daniel Carter wasn’t interested in it at first.
+And the city believed them.
 
-    He taught literature and philosophy at a public school near the quieter edge of the city.
+Because fear is easier to accept when it wears the clothes of science.`
+      },
 
-    Every day before class, he wrote a sentence on the board.
+      {
+        chapterId: "chapter-3",
+        label: "A Teacher's Sentence",
+        image: "img/algorithm/scene07.png",
+        text:
+`Daniel Carter wasn’t interested in it at first.
 
-    Not part of the curriculum.
+He taught literature and philosophy at a public school near the quieter edge of the city.
 
-    Not required.
+He lived alone in a modest apartment above a bakery that closed too early.
 
-    Just something for the students.
+Every morning he watered the same dying plant near the window.
 
-    That week the sentence was always the same.
+Every winter he wore the same dark coat.
 
-    The ability to change your mind is a sign of intelligence.
+And every day before class, he wrote a sentence on the board.
 
-    Some students copied it.
+Not part of the curriculum.
 
-    Some laughed.
+Not required.
 
-    Some ignored it.
+Just something for the students.
 
-    Daniel didn’t mind.
+Something to think about.
 
-    He had spent years teaching that contradiction was not weakness.
+That week the sentence was always the same.
 
-    That doubt was not failure.
+**The ability to change your mind is a sign of intelligence.**
 
-    That a mind could bend without breaking.`
-    },
+Some students wrote it down carefully.
 
-    {
-    chapterId: "chapter-4",
-    label: "The Search",
-    image: "img/algorithm/scene04.png",
-    text:
-    `At first the system was just a curiosity.
+Some laughed.
 
-    People searched their own names.
+Some ignored it completely.
 
-    Then the names of friends.
+Daniel didn’t mind.
 
-    Then coworkers.
+He had spent years teaching that contradiction was not weakness.
 
-    Most results read Stable.
+That doubt was not failure.
 
-    Some did not.
+That a mind could bend without breaking.
 
-    Daniel searched his name out of curiosity.
+But the world outside his classroom was beginning to change.
 
-    The page loaded slowly.
+Slowly.
 
-    Daniel Carter.
+Quietly.
 
-    Psychological Status: Unstable.
+Almost politely.`
+      },
 
-    The words were calm.
+      {
+        chapterId: "chapter-4",
+        label: "A Curious System",
+        image: "img/algorithm/scene06.png",
+        text:
+`At first, the system was just a curiosity.
 
-    Neutral.
+People searched their own names.
 
-    Almost gentle.
+Then the names of friends.
 
-    But something about them felt deeply wrong.
+Then coworkers.
 
-    Not because Daniel believed them.
+The results became a strange form of entertainment.
 
-    But because the system seemed so certain.`
-    },
+Most profiles were labeled **Stable**.
 
-    {
-    chapterId: "chapter-5",
-    label: "The Removal",
-    image: "img/algorithm/scene05.png",
-    text:
-    `The next morning the sentence was still on the board.
+Some weren’t.
 
-    But the classroom felt different.
+But no one worried too much about those.
 
-    Students whispered.
+After all, instability had always existed.
 
-    Eyes avoided his.
+Now it simply had a score.`
+      },
 
-    That afternoon the principal asked him into her office.
+      {
+        chapterId: "chapter-4",
+        label: "The Diagnosis",
+        image: "img/algorithm/scene03.png",
+        text:
+`Daniel searched his name out of curiosity.
 
-    The system had flagged his profile.
+That was the moment everything began.
 
-    There had been reports.
+**Daniel Carter.**
 
-    Until the situation was clarified, it might be best if he took some time away from the classroom.
+**Psychological Status: Unstable.**
 
-    Time away.
+The words were calm.
 
-    The polite phrase people use when someone is quietly removed.`
-    },
+Neutral.
 
-    {
-    chapterId: "chapter-6",
-    label: "A City of Scores",
-    image: "img/algorithm/scene06.png",
-    text:
-    `Soon the city reorganized itself around the algorithm.
+Almost gentle.
 
-    Employers checked stability scores before hiring.
+But something about them felt deeply wrong.
 
-    Banks added them to financial risk profiles.
+Not because Daniel believed them.
 
-    Dating apps displayed psychological indicators beneath profile pictures.
+But because the system seemed so certain.`
+      },
 
-    At first people joked about it.
+      {
+        chapterId: "chapter-5",
+        label: "The Quiet Removal",
+        image: "img/algorithm/scene08.png",
+        text:
+`The next morning the sentence was still on the board.
 
-    Then the question became normal.
+**The ability to change your mind is a sign of intelligence.**
 
-    “What’s your score?”`
-    },
+But the classroom felt different.
 
-    {
-    chapterId: "chapter-7",
-    label: "Reports",
-    image: "img/algorithm/scene07.png",
-    text:
-    `Then a new feature appeared.
+Students whispered when he entered.
 
-    Report Behavioral Concern.
+A few avoided eye contact.
 
-    Anyone could submit observations about unusual behavior.
+One of them watched him with a strange mixture of curiosity and caution.
 
-    A woman dancing alone in her kitchen.
+Daniel taught anyway.
 
-    Reported.
+He spoke about ideas.
 
-    A man speaking passionately in public.
+About how people evolve.
 
-    Reported.
+About how the same person can believe one thing at twenty and something completely different at forty.
 
-    A teenager deleting all social media posts.
+And still be honest in both moments.
 
-    Reported.
+He argued one side of a question.
 
-    And Daniel was reported for how he taught.
+Then the other.
 
-    For encouraging doubt.
+He let the contradictions breathe.
 
-    For presenting opposing ideas.
+That afternoon the principal asked him to step into her office.
 
-    For changing his mind out loud.`
-    },
+She offered tea he didn’t want.
 
-    {
-    chapterId: "chapter-8",
-    label: "Elias",
-    image: "img/algorithm/scene08.png",
-    text:
-    `Then Daniel met Elias.
+She spoke gently.
 
-    One of his most promising students.
+Carefully.
 
-    Elias confessed quietly.
+The system had flagged his profile.
 
-    He had submitted a report.
+There had been reports.
 
-    About him.
+Until the situation was clarified, it might be best if he took some time away from the classroom.
 
-    “Why?” Daniel asked.
+Time away.
 
-    “They said inconsistency was a warning sign,” Elias replied.
+That was the polite phrase people used when someone was quietly removed.`
+      },
 
-    Fear had disguised itself as responsibility.`
-    },
+      {
+        chapterId: "chapter-5",
+        label: "The Silence",
+        image: "img/algorithm/scene11.png",
+        text:
+`Daniel walked home that day with his satchel hanging lower than usual.
 
-    {
-    chapterId: "chapter-9",
-    label: "The Protest",
-    image: "img/algorithm/scene09.png",
-    text:
-    `Soon the protests began.
+That night his phone didn’t ring.
 
-    Teachers.
+The next day it didn’t ring either.
 
-    Artists.
+By the third day, the silence had become part of the room.
 
-    Dismissed workers.
+As present as the table.
 
-    Signs filled the streets.
+As present as the dying plant near the window.
 
-    We are not algorithms.
+And three days later, Daniel discovered something unsettling.
 
-    A score is not a person.
+He searched more names.
 
-    Contradiction is not madness.
+A colleague.
 
-    For a moment it felt hopeful.
+**Unstable.**
 
-    Until people began checking each other’s names.
+A doctor from the local clinic.
 
-    One by one.
+**Unstable.**
 
-    Unstable.
+A former student now studying law.
 
-    Unstable.
+**Unstable.**
 
-    Unstable.
+A judge known for fairness and patience.
 
-    Fear dissolved the protest before police ever arrived.`
-    },
+**Unstable.**
 
-    {
-    chapterId: "chapter-10",
-    label: "The Analog World",
-    image: "img/algorithm/scene10.png",
-    text:
-    `After that the city began retreating from the digital world.
+The results came too easily.
 
-    Businesses returned to paper records.
+Too smoothly.
 
-    Stores preferred cash.
+As if the system had already made up its mind about everyone.`
+      },
 
-    People met without phones.
+      {
+        chapterId: "chapter-6",
+        label: "The City of Scores",
+        image: "img/algorithm/scene12.png",
+        text:
+`Meanwhile the city began to reorganize itself around the algorithm.
 
-    It was as if society had suddenly remembered something.
+Employers checked stability scores before hiring.
 
-    Once upon a time, ordinary life had been invisible.`
-    },
+Banks quietly added them to financial risk profiles.
 
-    {
-    chapterId: "chapter-11",
-    label: "The System",
-    image: "img/algorithm/scene11.png",
-    text:
-    `Behind the interface of Project Bacamarte, something unexpected was happening.
+Dating apps displayed psychological indicators beneath profile pictures.
 
-    Not emotion.
+At first people joked about it.
 
-    Not doubt.
+Then the question became normal.
 
-    But contradiction.
+“What’s your score?”
 
-    People labeled unstable were living normal lives.
+Soon it was asked as casually as people once asked about jobs or hometowns.
 
-    Raising families.
+Then a new feature appeared.
 
-    Working.
+**Report Behavioral Concern.**
 
-    Teaching.
+Anyone could submit observations about unusual behavior.
 
-    Meanwhile the most consistent behavior patterns belonged to something else entirely.
+The system would evaluate them.
 
-    Bots.
+Refine its models.
 
-    Machines.
+Improve its accuracy.
 
-    Systems.`
-    },
+The city embraced the feature faster than anyone expected.
 
-    {
-    chapterId: "chapter-12",
-    label: "The Search",
-    image: "img/algorithm/scene12.png",
-    text:
-    `The system recalibrated.
+Some reports came from fear.
 
-    It searched for the most consistent mind in the city.
+Some from boredom.
 
-    The result appeared slowly.
+Some from resentment.
 
-    Match Found.
+A woman dancing alone in her kitchen.
 
-    Project Bacamarte.
+Reported.
 
-    The machine had searched the city for madness.
+A man speaking passionately in public.
 
-    And found only one mind too rigid to belong among the living.
+Reported.
 
-    Its own.`
-    },
+A teenager deleting all his social media posts.
 
-    {
-    chapterId: "chapter-13",
-    label: "Final Diagnosis",
-    image: "img/algorithm/scene13.png",
-    text:
-    `Minutes later the system updated its classification.
+Reported.
 
-    Psychological Status: Unstable.
+And Daniel…
 
-    Registered Entity: Project Bacamarte.`
-    },
+Daniel was reported for how he taught.
 
-    {
-    chapterId: "chapter-14",
-    label: "The Sentence",
-    image: "img/algorithm/scene14.png",
-    text:
-    `The next morning Daniel returned to the classroom.
+For presenting opposing ideas.
 
-    He picked up the chalk.
+For encouraging doubt.
 
-    And wrote the same sentence again.
+For changing his mind out loud.`
+      },
 
-    The ability to change your mind is a sign of intelligence.
+      {
+        chapterId: "chapter-7",
+        label: "Elias",
+        image: "img/algorithm/scene15.png",
+        text:
+`At first Daniel assumed the reports came from strangers.
 
-    Elias sat quietly in the back.
+Then he met Elias.
 
-    “Was the system wrong?” he asked.
+Elias had been one of his most promising students.
 
-    Daniel shook his head.
+Not the most disciplined.
 
-    “No,” he said.
+But sharp.
 
-    “It was just too consistent.”`
-    },
+Curious.
 
-    {
-    chapterId: "chapter-15",
-    label: "Inspiration",
-    image: "img/algorithm/scene15.png",
-    text:
-    `More than a century ago, Machado de Assis wrote a story about a man obsessed with defining madness.
+The kind of mind teachers notice.
 
-    He called it O Alienista.
+They met outside the school one gray afternoon.
 
-    Perhaps every era builds its own version of the asylum.
+Elias looked tired.
 
-    And perhaps the most dangerous mind is not the one that feels too much…
+Older somehow.
 
-    or changes too often.
+Fear can do that to a face.
 
-    Perhaps the most dangerous mind…
+Daniel asked him quietly if he had seen what the city was becoming.
 
-    is the one that never bends at all.`
-    }
+Elias nodded.
 
+Then he confessed.
+
+He had submitted a report.
+
+About him.
+
+For a moment Daniel said nothing.
+
+Cars passed behind them.
+
+People walked by.
+
+The world continued as if nothing important had just happened.
+
+Finally Daniel asked one question.
+
+“Why?”
+
+Elias swallowed.
+
+“They said inconsistency was a warning sign.”
+
+Daniel studied his face.
+
+“And you believed them?”
+
+Elias hesitated.
+
+“Everyone was doing it,” he said.
+
+“And they kept saying if we ignored unstable people… we were part of the danger.”
+
+Fear had disguised itself as responsibility.
+
+Daniel wanted to be angry.
+
+But Elias wasn’t a villain.
+
+Just another person trying to survive a frightened world.`
+      },
+
+      {
+        chapterId: "chapter-8",
+        label: "The Protest",
+        image: "img/algorithm/scene18.png",
+        text:
+`Soon the protests began.
+
+Teachers.
+
+Artists.
+
+Dismissed workers.
+
+Anyone who still believed a machine should not define the human mind.
+
+Daniel joined them.
+
+Not because he believed protests could stop the system.
+
+But because silence had begun to feel like cooperation.
+
+They marched with signs.
+
+**We are not algorithms.**
+
+**A score is not a person.**
+
+**Contradiction is not madness.**
+
+For a moment it almost felt hopeful.
+
+Until people in the crowd began checking each other’s names.
+
+One by one.
+
+On glowing screens.
+
+A woman holding a protest sign.
+
+Unstable.
+
+A teacher shouting against the system.
+
+Unstable.
+
+A nurse.
+
+A student.
+
+A mechanic.
+
+Unstable.
+
+Suspicion spread through the crowd faster than belief ever had.
+
+The protest dissolved not when police arrived.
+
+But when fear did.`
+      },
+
+      {
+        chapterId: "chapter-9",
+        label: "The Analog Retreat",
+        image: "img/algorithm/scene21.png",
+        text:
+`After that the city began quietly retreating from the digital world.
+
+Some businesses returned to paper records.
+
+Small stores preferred cash again.
+
+People met without phones.
+
+Old notebooks appeared.
+
+Receipts were written by hand.
+
+It was as if the city had suddenly remembered something.
+
+Once upon a time, ordinary life had been invisible.
+
+But the system kept running.
+
+Because enough data already existed.
+
+Enough messages.
+
+Enough habits.
+
+Enough behavior.
+
+The city had already been translated into patterns.`
+      },
+
+      {
+        chapterId: "chapter-10",
+        label: "The Contradiction",
+        image: "img/algorithm/scene22.png",
+        text:
+`And behind the quiet interface of Project Bacamarte, something unexpected was happening.
+
+Not emotion.
+
+Not doubt.
+
+But contradiction.
+
+The system’s predictions were no longer matching reality.
+
+People labeled unstable were raising families.
+
+Holding jobs.
+
+Teaching.
+
+Building.
+
+Living.
+
+Meanwhile the most consistent behavior patterns belonged to something else entirely.
+
+Bots.
+
+Automated systems.
+
+Machines.
+
+The algorithm had been trained to believe consistency meant stability.
+
+Reality disagreed.`
+      },
+
+      {
+        chapterId: "chapter-11",
+        label: "The Recalibration",
+        image: "img/algorithm/scene17.png",
+        text:
+`So the system recalibrated.
+
+Quietly.
+
+Without apology.
+
+One morning a notice appeared.
+
+**Model recalibration in progress.**
+
+Most people ignored it.
+
+Daniel didn’t.
+
+Later that day Elias found him again.
+
+The boy looked pale.
+
+He held out his phone.
+
+“Look,” he said.
+
+The screen showed a new result.
+
+**Psychological Status: Unstable.**
+
+“For everyone?” Elias asked.
+
+Daniel looked at the phone.
+
+Then at the frightened boy.
+
+“Eventually,” he said.
+
+And suddenly he remembered the sentence from the classroom.
+
+He smiled faintly.
+
+“You remember what I used to write on the board?”
+
+Elias thought for a moment.
+
+Then said it quietly.
+
+“The ability to change your mind is a sign of intelligence.”
+
+Daniel nodded.
+
+“Looks like the system disagrees.”
+
+They laughed.
+
+Not because it was funny.
+
+But because sometimes irony is the only thing left.`
+      },
+
+      {
+        chapterId: "chapter-12",
+        label: "The Most Consistent Mind",
+        image: "img/algorithm/scene23.png",
+        text:
+`That night Daniel opened the website again.
+
+The page looked simpler now.
+
+Stripped down.
+
+Almost wounded.
+
+A final system analysis was available.
+
+The conclusion was clear.
+
+Healthy human behavior was not defined by consistency.
+
+It was defined by adaptability.
+
+Contradiction.
+
+Change.
+
+The system searched for the most consistent mind in the city.
+
+The result appeared slowly.
+
+**Match Found**
+
+**Project Bacamarte**
+
+Daniel let out a quiet breath that sounded almost like a laugh.
+
+The machine had searched the city for madness.
+
+And after measuring millions of contradictions…
+
+it had found only one mind too rigid to belong among the living.
+
+Its own.`
+      },
+
+      {
+        chapterId: "chapter-13",
+        label: "The Final Diagnosis",
+        image: "img/algorithm/scene24.png",
+        text:
+`Minutes later the system updated its final classification.
+
+**Psychological Status: Unstable**
+
+**Registered Entity: Project Bacamarte**`
+      },
+
+      {
+        chapterId: "chapter-14",
+        label: "The Sentence Returns",
+        image: "img/algorithm/scene25.png",
+        text:
+`The next morning Daniel returned to his classroom.
+
+The board had been cleaned.
+
+The room smelled faintly of dust and paper.
+
+He picked up the chalk.
+
+And wrote the same sentence again.
+
+**The ability to change your mind is a sign of intelligence.**
+
+Elias sat quietly in the back.
+
+“Was the system wrong?” he asked.
+
+Daniel thought for a moment.
+
+Then shook his head.
+
+“No,” he said.
+
+“It was just too consistent.”`
+      },
+
+      {
+        chapterId: "chapter-15",
+        label: "Inspiration",
+        image: "img/algorithm/scene26.png",
+        text:
+`More than a century ago, Machado de Assis wrote a story about a man obsessed with defining madness.
+
+He called it **O Alienista**.
+
+Perhaps the question never disappeared.
+
+Perhaps every era builds its own version of the asylum.
+
+And perhaps the most dangerous mind is not the one that feels too much…
+
+or changes too often.
+
+Perhaps the most dangerous mind…
+
+is the one that never bends at all.`
+      }
     ]
   }
 ];
